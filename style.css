@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/Web\ capture_27-7-2023_164825_www.konga.com.jpeg");
+    background-size: cover;
+    height: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+}
+/* topBar */
+.topBar img {
+    width: 100%;
+}
+
+header {
+    margin-top: -10px;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px;
+}
+
+.headerUl {
+    list-style: none;
+}
+
+.headerLi {
+    display: inline-block;
+}
+
+.headerItem {
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+}
+
+/* navbar */
+
+
+/* icon */
+.icon-card_travel,
+.icon-payment,
+.icon-glass,
+.icon-hospital-o,
+.icon-truck,
+.icon-shopping_cart {
+    color: rgb(253, 64, 96);
+    font-size: 20px;
+}
+
+.iconSpan {
+    color: rgb(202, 61, 85);
+    font-weight: 600;
+}
+
+
+nav {
+    background-color: #ff00aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.icon-smile-o {
+    color: orange;
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    font-size: 40px;
+}
+
+.navItem-1 {
+    font-size: 40px;
+}
+
+.navSpan {
+    font-size: 40px;
+}
+
+.navItem {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.searchInput {
+    width: 600px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+}
+
+.searchInput::placeholder {
+    text-align: unset;
+    font-size: 15px;
+}
+
+.iconSearch {
+    text-align: center;
+    justify-content: center;
+    height: 35px;
+    width: 30px;
+    border-radius: 2px;
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+.icon-search {
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    font-size: 20px;
+}
+
+.icon-help_outline {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.cart {
+    background-color: green;
+    color: white;
+    display: flex;
+    padding: 10px 40px;
+}
+
+.cartItem {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.cart p {
+    padding: 3px 3px;
+    background-color: white;
+    color: black;
+}
+
+/* categories */
+.categories {
+    background-color: rgb(145, 23, 64);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.catItem {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+
+
+/* section */
+section {
+    /* background-color: white; */
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideCont {
+    /* width: 100%; */
+    position: relative;
+}
+
+
+
+.sideImg {
+    width: 100%;
+    border-radius: 6px;
+    height: 420px;
+}
+
+.rightCont {
+    justify-content: center;
+    align-items: center;
+}
+
+.topRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bottomRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.rightImg {
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.stock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.stk {
+    padding: 20px 50px;
+    background-color: whitesmoke;
+    text-decoration: none;
+    margin-right: 28px;
+    border-radius: 3px;
+}
+
+.icon-web,
+.icon-payment,
+.icon-truck,
+.icon-store_mall_directory,
+.icon-shopping-bag,
+.icon-plane {
+    color: rgb(253, 64, 96);
+    font-size: 20px;
+}
+
+/* products */
+.products {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.productHead {
+    display: flex;
+    background-color: rgb(145, 23, 64);
+}
+
+.productHead h1 {
+    border-radius: 3px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.productHead a {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+
+.productCat {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.productSet {
+    -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.53); 
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.53);
+    background-color: white;
+    display: flex;
+    padding: 20px 30px;
+    margin-right: 20px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.productSet:hover {
+    transition: all 0.7s ease-in;
+    -webkit-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7); 
+    box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
+}
+
+.productContent {
+    display: flex;
+    text-decoration: none;
+}
+
+.imgShow {
+    width: 100px;
+    height: 100px;
+}
+
+.productDetails {
+    display: flex;
+    padding: 10px 15px;
+    flex-direction: column;
+}
+
+.productTag {
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.productPrice {
+    display: flex
+}
+
+.priceReal {
+    padding: 5px;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 20px;
+}
+
+.priceSlash {
+    padding-top: 8px;
+    text-decoration: none;
+    color: #0f0f0f;
+    font-size: 15px;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+
+.discount {
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: pink;
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.discountTag {
+    color: darkgreen;
+}
+
+/* sponsored */
+.sponsor {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+.sponTitle {
+    background-color: white;
+    padding: 10px;
+}
+
+.sponTite h1 {
+    color: #0f0f0f;
+    font-size: 20px;
+}
+
+.sponsoredMenu {
+    padding-top: 10px;
+    display: flex;
+}
+
+.sponsoredItem {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-right: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.53); 
+    box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.53);
+}
+
+.sponsoredItem:hover {
+    transition: all 0.7s ease-in;
+    -webkit-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7); 
+    box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
+}
+
+.imgList {
+    width: 150px;
+    height: 200px;
+}
+
+.sponImg {
+    width: 100%;
+}
+
+.menuTitle {
+    text-decoration: none;
+    color: black;
+}
+
+.sponDetail {
+    display: flex;
+    flex-wrap: wrap;
+}
