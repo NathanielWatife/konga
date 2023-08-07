@@ -174,6 +174,7 @@ section {
     align-items: center;
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .topSection {
@@ -252,9 +253,11 @@ section {
     margin-top: 30px;
     background-color: #ffffff;
     width: 100%;
+    border-radius: 3px;
 }
 
 .productHead {
+    border-radius: 3px 3px 0px 0px;
     display: flex;
     background-color: rgb(145, 23, 64);
 }
@@ -302,9 +305,9 @@ section {
 }
 
 .imgShow {
-    width: 100px;
+    width: 100%;
     height: 100px;
-}
+} 
 
 .productDetails {
     display: flex;
@@ -318,7 +321,7 @@ section {
 }
 
 .productPrice {
-    display: flex
+    display: flex;
 }
 
 .priceReal {
@@ -351,16 +354,21 @@ section {
     color: darkgreen;
 }
 
+
+
 /* sponsored */
 .sponsor {
     background-color: white;
-    border-radius: 5px;
+    border-radius: 3px;
     margin-top: 20px;
     width: 100%;
+    padding-bottom: 20px;
 }
+
 .sponTitle {
     background-color: white;
     padding: 10px;
+    border-radius: 3px 3px;
 }
 
 .sponTite h1 {
@@ -371,16 +379,21 @@ section {
 .sponsoredMenu {
     padding-top: 10px;
     display: flex;
+    border-radius: 3px 3px;
 }
 
 .sponsoredItem {
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 20%;
+    height: 300px;
+    margin-left: 10px;
     margin-right: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    border: none;
+    border-radius: 5px;
     -webkit-box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.53); 
     box-shadow: 0px 0px 15px -4px rgba(0,0,0,0.53);
 }
@@ -391,14 +404,18 @@ section {
     box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
 }
 
-.imgList {
-    width: 150px;
-    height: 200px;
+.sponImg {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
 }
 
-.sponImg {
-    width: 100%;
+.imgList {
+    width: 80%;
+    height: 150px;
 }
+
 
 .menuTitle {
     text-decoration: none;
@@ -408,4 +425,216 @@ section {
 .sponDetail {
     display: flex;
     flex-wrap: wrap;
+}
+
+.sponReal {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.sponSlash {
+    text-decoration: none;
+    text-decoration: line-through green;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
+}
+
+
+
+/* showcase */
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: white;
+    
+}
+
+.show {
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.show:hover {
+    transition: all 0.7s ease-in;
+    -webkit-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7); 
+    box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
+}
+
+.imgCase {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+
+.review {
+    display: flex;
+}
+
+.review p{
+    margin-right: 10px;
+    color: lightgray;
+}
+
+.icon-star {
+    color: orange;
+}
+
+/* kidsSpecial */
+.kidSpecial {
+    width: 98%;
+    margin-top: 20px;
+    border: 15px solid white;
+    border-radius: 15px;
+    height: 100px;
+}
+
+
+.kidImg {
+    width: 100%;
+    height: 100px;
+}
+
+/* groceries */
+.groceries {
+    border: 15px solid white;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    width: 98%;
+    height: 200px;
+}
+
+.grosPic-1 {
+    width: 80%;
+    height: 200px;
+    border-right: 10px solid white;
+}
+
+.grosPic-2 {
+    width: 80%;
+    /* height: 200%; */
+}
+
+.grocImg {
+    width: 100%;
+    height: 200px;
+}
+
+
+/* shopMenu */
+.shopMenu {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.shopItem {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.shopItem:hover {
+    transition: all 0.7s ease-in;
+    -webkit-box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7); 
+    box-shadow: -1px 1px 20px -3px rgba(0,0,0,0.7);
+}
+
+.shopImg {
+    width: 340px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.shopTitle {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-left: 5px;
+}
+
+.shopDiscount {
+    text-decoration: none;
+    color: lightgray;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+
+.shopBtn {
+    border: none;
+    color: red;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+
+.icon-keyboard_arrow_right {
+    color: red;
+}
+
+
+/* brands */
+.brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-tracks: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 5px;
+    background-color: #f5f5f5;
+}
+
+.brandItem {
+    width: 100%;
+    border-radius: 10px;
+    height: inherit;
+    margin-top: 0px;
+    padding-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandImg {
+    margin-right: 3px;
+    width: 230px;
+    height: 100px;
+}
+
+#mage {
+    border-radius: 3px 0px 0px 0px ;
+}
+
+#mage1 {
+    border-radius: 0px 3px 0px 0px;
+}
+
+#mage2 {
+    border-radius: 0px 0px 0px 3px;
+}
+
+#mage3 {
+    border-radius: 0px 0px 3px 0px;
 }
