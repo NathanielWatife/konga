@@ -638,3 +638,221 @@ section {
 #mage3 {
     border-radius: 0px 0px 3px 0px;
 }
+
+
+/* headlines */
+.headline {
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    height: 200px;
+}
+
+.headline h1 {
+    padding: 5px;
+    color: lightgrey;
+}
+
+.headline p {
+    padding: 5px;
+    flex-wrap: wrap;
+    height: 190px;
+    color: lightgray;
+}
+
+
+footer {
+    background-color: #0f0f0f;
+    margin-top: 10px;
+}
+
+.footTop {
+    padding: 5px;
+    background-color: rgb(74, 71, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footItem {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.footIcon {
+    text-decoration: none;
+}
+
+.footTitle {
+    padding: 10px;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.footDesc {
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.icon-markunread,
+.icon-phone,
+.icon-whatsapp,
+.icon-update {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.emailInput {
+    width: 250px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+}
+
+.emailInput ::placeholder {
+    color: lightgrey;
+    text-align: center;
+}
+
+.emailBtn {
+    padding: 13px 5px;
+    color: white;
+    text-decoration: none;
+    /* margin-right: 8px; */
+    border-radius: 3px;
+    background-color: #ff00aa;
+}
+
+
+
+
+/* main content */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+
+.mainItem {
+    flex: 1;
+    padding: 5px;
+}
+
+.mainItem h3 {
+    margin-top: 0;
+}
+
+.mainItem h3 a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+
+.mainItem ul{
+    list-style: none;
+    padding: 10px;
+}
+
+.mainItem li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+
+.Connect {
+    flex: 2;
+}
+
+.mainCon {
+    margin-top: 10px;
+    display: flex;
+}
+
+.Connect h3 {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.Connect h3 a{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.connectItem {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    margin-right: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.connectItem a {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+.icon-apple,
+.icon-android {
+    margin-right: 5px;
+    color: lightgrey;
+    font-size: 40px;
+}
+
+.connectItem h2  {
+    font-size: 20px;
+    color: lightgrey;
+}
+
+.connectDesc {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.icon-facebook,
+.icon-twitter,
+.icon-instagram,
+.icon-youtube-play {
+    background-color: lightgrey;
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+
+.linbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.shape {
+    width: 30%;
+    padding: 1px 1px;
+    background-color: lightgrey;
+}
+
+.linbar p {
+    padding: 5px;
+    color: lightgrey;
+}
+
+
+
